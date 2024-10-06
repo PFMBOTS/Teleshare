@@ -14,7 +14,7 @@
 * [Deployments](#deployments)
 
 #### FEATURES
-- [All available commands.](current-available-commands)
+- [All available commands.](#all-available-commands)
 - CodeXbotz links compatibility.
 - Fully asynchronous.
 - In-built rate limiter.
@@ -23,7 +23,7 @@
 - Protect content.
 
 #### TODO
-- [ ] Database and Option refactor.
+- [x] Database and Option refactor.
 - [ ] Ban command.
 - [ ] File rename command.
 - [ ] Tokenized access.
@@ -38,6 +38,7 @@ this command may take awhile depending on user count.
 4. `/option`: Use to configure database options. See [bot options](#bot-options) for more informations.
 5. `/delete_link`: Delete an accessible link from the database and delete the corresponding file from the backup channel.
 6. Auto link generation: just forward or send a file directly to the bot.
+7. `/range_files`: Fetch files directly from backup channel to create a sharable link of ranged file ids.
 
 #### Frequently Asked Questions
 <details>
